@@ -447,7 +447,7 @@ h3{
 }
 @media (max-width: 768px) {
     footer{
-        height: 50;
+        height: 50vh;
     }
     .footer_content {
         flex-direction: column;
@@ -472,17 +472,12 @@ h3{
     }
 
     /* Add more rules if you have more elements */
-}
+
 
 @keyframes fadeIn {
     to {
         opacity: 1;
     }
-    .text-center{
-
-        font-size: 1.2rem;
-        font-weight: 600;
-        text-align:center;
-        padding-top: 30px;
-    }
+}
+    
 }

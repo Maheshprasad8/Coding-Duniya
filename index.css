@@ -448,6 +448,10 @@ h3{
 @media (max-width: 768px) {
     footer{
         height: 50vh;
+        
+        margin-top: auto;
+        width: 100vw;
+        background-color:rgb(101, 131, 137);
     }
     .footer_content {
         flex-direction: column;

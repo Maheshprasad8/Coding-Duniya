@@ -447,10 +447,10 @@ h3{
 }
 @media (max-width: 768px) {
     footer{
-        height: 50vh;
+        height: fit-content;
         
         margin-top: auto;
-        width: 100vw;
+        width:200vw;
         background-color:rgb(101, 131, 137);
     }
     .footer_content {

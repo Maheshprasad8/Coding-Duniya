@@ -140,7 +140,7 @@ button:hover{
 .right_container,.photo{
     height: 450px;
     width: 500px;
-    padding-right: 200px;
+    /* padding-right: 200px; */
     border-radius: 10%;
     animation: slidefromLeft 5s ease forwards;
     opacity: 0;
@@ -372,14 +372,15 @@ align-self: center;
        padding-right: 200px;
     }
     .testimonal_content{
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 3px;
         border: 1px solid rgb(78, 158, 78);
         background-image: linear-gradient(to right, rgb(222, 225, 232), rgb(89, 142, 222));
-        height: 350px;
-        width: 400px;
+        height: 250px;
+        width: 350px;
         border-radius: 10%;
     }
 

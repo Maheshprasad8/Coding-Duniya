@@ -138,9 +138,9 @@ button:hover{
 }
 
 .right_container,.photo{
-    height: 450px;
-    width: 500px;
-    /* padding-right: 200px; */
+    height: 500px;
+    width: 400px;
+   
     border-radius: 10%;
     animation: slidefromLeft 5s ease forwards;
     opacity: 0;

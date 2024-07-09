@@ -71,10 +71,10 @@ margin:5px;
     background-color: rgb(135, 135, 184);
     color: white;
 }
-/* error */
-@media (max-width: 650px) {
+/* nav ka media */
+@media (max-width: 768px) {
     .container {
-       width: 180vw;
+       width: 100%;
         justify-content: space-between
 
     }
@@ -89,7 +89,7 @@ margin:5px;
     padding: 60px;
   margin: 10px;
  height: 80vh;
- width: 100vw;
+ width: 100%;
  background-image: linear-gradient(to right, white,rgb(90, 99, 181));  
 display: flex;
 justify-content: space-between;
@@ -153,12 +153,13 @@ button:hover{
         transform: translateX(0);
     }
 }
-@media (max-width:650px){
+/* section1 ka media */
+@media (max-width:768px){
     .main_container{
         padding: 60px;
         margin: 10px;
        height:fit-content;
-       width: 200vw;
+       width: 100%;
        background-image: linear-gradient(to right, white,rgb(90, 99, 181));  
       display: flex;
       flex-direction: column;
@@ -214,8 +215,8 @@ button:hover{
 /* section2 */
 
 .container2{
-    height: 50vh;
-    width: 100vw;
+    height: fit-content;
+    width: 100%;
     background-color: rgb(171, 166, 166);
 }
 .box{
@@ -248,11 +249,11 @@ gap:35px;
     height:100px;
     width:100px;
 }
-
-@media (max-width:650px){
+/* section 2 ka media */
+@media (max-width:768px){
     .container2{
         height: fit-content;
-        width: fit-content;
+        width: 100%;
         background-color: rgb(171, 166, 166);
     }
     .box{
@@ -292,7 +293,7 @@ gap:35px;
 /* section3 */
 .testimonal_container{
     height:200vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(164, 194, 195);
 margin-top: 20px;
 }
@@ -343,11 +344,11 @@ article{
 font-weight: 500;
 align-self: center;
 }
-
-@media(max-width:650px){
+/* section 3 ka media */
+@media(max-width:768px){
     .testimonal_container{
         height:fit-content;
-        width: fit-content;
+        width: 100%;
         background-color: rgb(164, 194, 195);
     
     }
@@ -401,7 +402,7 @@ align-self: center;
 footer{
     height: 40vh;
     margin-top: auto;
-    width: 100vw;
+    width: 100%;
     background-color:rgb(101, 131, 137);
 }
 .footer_content{
@@ -445,12 +446,14 @@ h3{
     text-align:center;
     padding-top: 30px;
 }
+
+/* footer ka media */
 @media (max-width: 768px) {
     footer{
         height: fit-content;
         
-        margin-top: auto;
-        width:200vw;
+        /* margin-top: auto; */
+        width:100%;
         background-color:rgb(101, 131, 137);
     }
     .footer_content {
